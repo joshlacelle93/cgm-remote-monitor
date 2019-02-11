@@ -88,13 +88,16 @@ body {
     margin: 0;
     height: 44px;
     text-shadow: 0 0 5px black;
-  
+  }
+
   #toolbar .customTitle {
     color: #fecea8!important;
     font-family: 'Karla', sans-serif!important;
-  
+  }
+
   #buttonbar a, #buttonbar i {
     color: #fecea8!important;
+}
 
 .container {
   bottom: 0;
