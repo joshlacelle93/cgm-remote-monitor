@@ -75,7 +75,6 @@ html, body {
 
 body {
   font-family: 'Karla', sans-serif;
-  overflow: hidden;
   padding: 0;
   background: #2a363b url(https://www.campaignmonitor.com/images/homepage/banner-bg.jpg) no-repeat center top;
   background-size: cover;
@@ -83,7 +82,7 @@ body {
 
 #toolbar {
     background: url(/images/logo2.png) no-repeat 3px 3px #ff847c!important;
-    border-bottom: 0px solid #fff!important;
+    border-bottom: 3px solid #9cb897!important;
     top: 0;
     margin: 0;
     height: 44px;
@@ -144,6 +143,9 @@ a, a:visited, a:link {
   font-family: 'Karla', Verdana, Helvetica, Arial, sans-serif;
   vertical-align: middle;
   clear: both;
+  padding: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .bgStatus {
@@ -290,7 +292,7 @@ a, a:visited, a:link {
 }
 
 #chartContainer {
-  margin-top: 5px;
+  margin-top: 16px;
   left: 0;
   right: 0;
   bottom: 0;
