@@ -105,11 +105,11 @@ a, a:visited, a:link {
 }
 
 #container.announcing .customTitle {
-  color: #fff;
+  color: #e6f224;
 }
 
 #container.alarming.urgent .customTitle {
-  color: #E84a5F;
+  color: #e6f224;
 }
 
 #container.alarming.warning .customTitle {
@@ -346,7 +346,7 @@ a, a:visited, a:link {
 
 .alarming .bgButton {
   border-color: #f4fc70;
-  color: #2b363b;
+  color: #f4fc70;
   box-shadow: 2px 2px 0 #f4fc70;
 }
 
