@@ -793,6 +793,10 @@ a, a:visited, a:link {
     text-shadow: 0 0 5px black;
   }
 
+#toolbar .customTitle {
+    color: #fecea8!important;
+  }
+
 #buttonbar a, #buttonbar i {
     color: #fecea8!important;
 }
