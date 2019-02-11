@@ -99,6 +99,8 @@ body {
     color: #fecea8!important;
 }
 
+line.open-top {stroke: none!important;} 
+
 .container {
   bottom: 0;
   display: block;
