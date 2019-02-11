@@ -80,7 +80,17 @@ body {
   background: #2a363b url(https://www.campaignmonitor.com/images/homepage/banner-bg.jpg) no-repeat center top;
   background-size: cover;
 }
-}
+
+#toolbar {
+    background: url(/images/logo2.png) no-repeat 3px 3px #ff847c!important;
+    border-bottom: 0px solid #fff!important;
+    top: 0;
+    margin: 0;
+    height: 44px;
+    text-shadow: 0 0 5px black;
+  
+  #buttonbar a, #buttonbar i {
+    color: #fecea8!important;
 
 .container {
   bottom: 0;
