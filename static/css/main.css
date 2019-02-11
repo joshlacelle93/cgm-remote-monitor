@@ -74,7 +74,6 @@ body {
   font-family: 'Karla', sans-serif;
   padding: 0;
   background: #2a363b;
-  overflow: hidden;
 }
 
 .container {
@@ -764,7 +763,7 @@ a, a:visited, a:link {
  /* Side Menu */ 
 
 #drawer {
-    top: 2px!important;
+    top: 0!important;
     background-color: #2b363b!important;
     border-left: 2px solid #a1bb98!important;
     color: #fff!important;
@@ -804,3 +803,26 @@ a, a:visited, a:link {
 /* Removes line in graph */
 
 line.open-top {stroke: none!important;} 
+
+
+/* Admin Area */
+
+#admin-tools h1 {color: #facda6!important;}
+
+#admin_placeholder table, #admin_placeholder th, #admin_placeholder td {
+  border: 1px solid #2b363b;
+  color: #fff
+}
+
+#admin_placeholder tr {
+  background: #2b363b!important
+  }
+
+#admin_placeholder fieldset {
+  background: #f7837a!important;
+  border: none;
+  }
+
+ #admin_placeholder legend {
+  padding-top: 30px;  
+  }
