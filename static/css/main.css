@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Karla|Montserrat');
 
 
@@ -76,29 +73,9 @@ html, body {
 body {
   font-family: 'Karla', sans-serif;
   padding: 0;
-  background: #2a363b url(https://www.campaignmonitor.com/images/homepage/banner-bg.jpg) no-repeat center top;
-  background-size: cover;
+  background: #2a363b;
 }
 
-#toolbar {
-    background: url(/images/logo2.png) no-repeat 3px 3px #ff847c!important;
-    border-bottom: 3px solid #9cb897!important;
-    top: 0;
-    margin: 0;
-    height: 44px;
-    text-shadow: 0 0 5px black;
-  }
-
-  #toolbar .customTitle {
-    color: #fecea8!important;
-    font-family: 'Karla', sans-serif!important;
-  }
-
-  #buttonbar a, #buttonbar i {
-    color: #fecea8!important;
-}
-
-line.open-top {stroke: none!important;} 
 
 .container {
   bottom: 0;
@@ -123,12 +100,12 @@ button {
 }
 
 a, a:visited, a:link {
-  color: #2196f3;
+  color: #f7837a;
   text-decoration: none;
 }
 
 #container.announcing .customTitle {
-  color: orange;
+  color: #fff;
 }
 
 #container.alarming.urgent .customTitle {
@@ -136,7 +113,7 @@ a, a:visited, a:link {
 }
 
 #container.alarming.warning .customTitle {
-  color: yellow;
+  color: #e6f224;
 }
 
 .primary {
@@ -160,7 +137,7 @@ a, a:visited, a:link {
 }
 
 .warning .bgButton {
-  color: yellow;
+  color: #e6f224;
 }
 
 .inrange .bgButton {
@@ -212,7 +189,7 @@ a, a:visited, a:link {
   white-space: nowrap;
   border-radius: 5px;
   border: 0px solid #808080;
-  background: #;
+  background: none;
   display: inline-block;
   margin-bottom: 4px;
   padding: 6px 0;
@@ -235,7 +212,7 @@ a, a:visited, a:link {
 }
 
 .container .pill.warn em {
-  color: yellow;
+  color: #e6f224;
 }
 
 .container .pill.urgent em {
@@ -243,10 +220,10 @@ a, a:visited, a:link {
 }
 
 .alarming-timeago .timeago.pill.warn {
-  border-color: yellow;
+  border-color: #e6f224;
 }
 .alarming-timeago .timeago.pill.warn label {
-  background: yellow;
+  background: #e6f224;
 }
 
 .alarming-timeago .timeago.pill.urgent {
@@ -282,8 +259,8 @@ a, a:visited, a:link {
 }
 
 .statusPills .pill {
-  background: #;
-  border-color: #808080;
+  background: none;
+  border-color: none;
   margin-right: 5px;
 }
 
@@ -292,7 +269,6 @@ a, a:visited, a:link {
 }
 
 #chartContainer {
-  margin-top: 16px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -349,13 +325,13 @@ a, a:visited, a:link {
 .pill.rawbg {
   display: inline-block;
   border-radius: 2px;
-  border: 1px solid #808080;
+  border: 1px solid #99B898;
   padding: 0;
 }
 
 .pill.rawbg em {
-  color: white;
-  background-color: black;
+  color: #010101;
+  background-color: #99B898;
   display: block;
   font-size: 20px;
   border-radius: 0;
@@ -369,9 +345,9 @@ a, a:visited, a:link {
 }
 
 .alarming .bgButton {
-  border-color: #bdbdbd;
-  color: #000;
-  box-shadow: 2px 2px 0 #ddd;
+  border-color: #f4fc70;
+  color: #2b363b;
+  box-shadow: 2px 2px 0 #f4fc70;
 }
 
 .alarming.urgent .bgButton {
@@ -379,11 +355,11 @@ a, a:visited, a:link {
 }
 
 .alarming.warning .bgButton {
-  background-color: yellow;
+  background-color: #e6f224;
 }
 
 .alarming .bgButton:active {
-  border: 2px solid #bdbdbd;
+  border: 2px solid #red;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -451,7 +427,7 @@ a, a:visited, a:link {
 }
 
 #authorizationstatus a {
-  color: #2196f3;
+  color: #f7837a;
   text-decoration: underline;
 }
 
@@ -782,3 +758,45 @@ a, a:visited, a:link {
     line-height: 13px;
   }
 }
+
+
+
+ /* Side Menu */ 
+
+#drawer {
+    top: 2px!important;
+    background-color: #2b363b!important;
+    border-left: 2px solid #a1bb98!important;
+    color: #fff!important;
+}
+
+.navigation a {
+    background-color: #f7837a!important;
+}
+
+#drawer button, #treatmentDrawer button, #boluscalcDrawer button {
+    background-color: #f7837a!important;
+    border: 2px solid #f27166!important;
+    box-shadow: 0px 0px 0 !important;
+    color: #fff!important;
+}
+
+
+/* Top Bar */
+
+#toolbar {
+    background: url(/images/logo2.png) no-repeat 3px 3px #ff847c!important;
+    border-bottom: 3px solid #9cb897!important;
+    top: 0;
+    margin: 0;
+    height: 44px;
+    text-shadow: 0 0 5px black;
+  }
+
+#buttonbar a, #buttonbar i {
+    color: #fecea8!important;
+}
+
+/* Removes line in graph */
+
+line.open-top {stroke: none!important;} 
