@@ -1,5 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat');
+
 
 @font-face {
   font-family: 'nsicons';
@@ -71,9 +74,12 @@ html, body {
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  background: #000;
-  color: #bdbdbd;
+  font-family: 'Karla', sans-serif;
+  overflow: hidden;
+  padding: 0;
+  background: #2a363b url(https://www.campaignmonitor.com/images/homepage/banner-bg.jpg) no-repeat center top;
+  background-size: cover;
+}
 }
 
 .container {
@@ -108,7 +114,7 @@ a, a:visited, a:link {
 }
 
 #container.alarming.urgent .customTitle {
-  color: red;
+  color: #E84a5F;
 }
 
 #container.alarming.warning .customTitle {
@@ -116,7 +122,7 @@ a, a:visited, a:link {
 }
 
 .primary {
-  font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Karla', Verdana, Helvetica, Arial, sans-serif;
   vertical-align: middle;
   clear: both;
 }
@@ -129,7 +135,7 @@ a, a:visited, a:link {
 }
 
 .urgent .bgButton {
-  color: red;
+  color: #E84A5F;
 }
 
 .warning .bgButton {
@@ -137,7 +143,7 @@ a, a:visited, a:link {
 }
 
 .inrange .bgButton {
-  color: #4cff00;
+  color: #99B898;
 }
 
 .bgStatus .currentBG {
@@ -184,27 +190,27 @@ a, a:visited, a:link {
 .pill {
   white-space: nowrap;
   border-radius: 5px;
-  border: 2px solid #808080;
-  background: #808080;
+  border: 0px solid #808080;
+  background: #;
   display: inline-block;
   margin-bottom: 4px;
-  padding: 2px 0;
+  padding: 6px 0;
 }
 
 .pill em, .pill label {
-  padding: 2px 3px;
+  padding: 3px;
   white-space: nowrap;
 }
 
 .pill em {
   font-style: normal;
   font-weight: bold;
-  background: #000;
+  background: #99B898;
   border-radius: 3px;
 }
 
 .pill label {
-  color: #000;
+  color: #FFF;
 }
 
 .container .pill.warn em {
@@ -212,7 +218,7 @@ a, a:visited, a:link {
 }
 
 .container .pill.urgent em {
-  color: red;
+  color: #E84a5F;
 }
 
 .alarming-timeago .timeago.pill.warn {
@@ -223,10 +229,10 @@ a, a:visited, a:link {
 }
 
 .alarming-timeago .timeago.pill.urgent {
-  border-color: red;
+  border-color: #E84a5F;
 }
 .alarming-timeago .timeago.pill.urgent label {
-  background: red;
+  background: #E84a5F;
 }
 
 .bgStatus.current .currentBG {
@@ -238,7 +244,7 @@ a, a:visited, a:link {
 }
 
 .status {
-  color: #808080;
+  color: #fecea8;
   font-size: 100px;
 }
 .statusBox {
@@ -255,25 +261,25 @@ a, a:visited, a:link {
 }
 
 .statusPills .pill {
-  background: #808080;
+  background: #;
   border-color: #808080;
   margin-right: 5px;
 }
 
 .statusPills .pill em {
-  color: #bdbdbd;
+  color: #010101;
 }
 
 #chartContainer {
+  margin-top: 5px;
   left: 0;
   right: 0;
   bottom: 0;
   height: auto;
   font-size: 20px;
-  background: #111;
+  background: #2A363B;
   display: block;
   position: absolute;
-  margin: 2px;
   overflow: hidden;
 }
 
@@ -307,7 +313,9 @@ a, a:visited, a:link {
 
 .bgButton {
   margin: 10px;
-  border: 2px solid #000;
+  padding: 10px;
+  background: #;
+  border: 0px solid #fff;
   border-radius: 5px;
   display: inline-block;
   width: 360px;
@@ -346,7 +354,7 @@ a, a:visited, a:link {
 }
 
 .alarming.urgent .bgButton {
-  background-color: red;
+  background-color: #E84a5F;
 }
 
 .alarming.warning .bgButton {
@@ -396,8 +404,8 @@ a, a:visited, a:link {
   list-style: none;
   margin: 4px;
   padding: 0;
-  color: #808080;
-  width: 250px;
+  color: #fff;
+  width: 300px;
   text-align: center;
 }
 
@@ -405,15 +413,16 @@ a, a:visited, a:link {
   display: inline-block;
   font-size: 18px;
   white-space: nowrap;
-  border-radius: 5px;
-  border: 2px solid #000;
+  border-radius: 3px;
+  border: 0px solid #000;
+  padding: 6px;
   cursor: pointer;
 }
 
 .focus-range .selected {
   border-color: #808080;
   color: #000;
-  background: #808080;
+  background: #ff847c;
 }
 
 .pill.hidden {
