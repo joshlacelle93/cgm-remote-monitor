@@ -119,7 +119,7 @@ a, a:visited, a:link {
   font-family: 'Karla', Verdana, Helvetica, Arial, sans-serif;
   vertical-align: middle;
   clear: both;
-  padding: 20px; 
+  padding-top: 20px; 
   max-width: 1200px; 
   margin: 0 auto; 
 }
@@ -469,7 +469,7 @@ a, a:visited, a:link {
 
   .status {
     font-size: 70px;
-    padding-top: 8px;
+    padding-top: 0px;
   }
 
   .statusPills {
