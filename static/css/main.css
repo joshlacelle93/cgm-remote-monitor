@@ -345,7 +345,7 @@ a, a:visited, a:link {
 
 .alarming .bgButton {
   border-color: #f4fc70;
-  color: #df485d;
+  color: #ebf22a;
   box-shadow: 2px 2px 0 #f4fc70;
 }
 
@@ -354,6 +354,7 @@ a, a:visited, a:link {
 }
 
 .alarming.warning .bgButton {
+  color: #E84a5F;
   background-color: #e6f224;
 }
 
